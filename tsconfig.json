@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": false,
+    "outDir": "./dist", 
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.*", "./dist/**/*", "../common/**/*test.*"]
+}
